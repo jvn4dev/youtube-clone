@@ -5,9 +5,9 @@ import styles from './video_list.module.css';
 const VideoList = ({ videos }) => {
   return (
     <ul className={styles.list}>
-      {videos.map((video) => {
-        return <VideoItem key={video.id.videoId} video={video} />;
-      })}
+      {videos.map((video) => (
+        <VideoItem key={video.id.videoId} video={video} />
+      ))}
     </ul>
   );
 };

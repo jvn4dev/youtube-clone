@@ -5,7 +5,7 @@ import Navbar from './components/navbar/navbar';
 
 function App() {
   const [videos, setVideos] = useState([]);
-  const [query, setQuery] = useState('initialD');
+  const [query, setQuery] = useState('intial D');
 
   useEffect(() => {
     const requestOptions = {
@@ -20,11 +20,11 @@ function App() {
       .then((response) => response.json())
       .then((result) => setVideos(result.items))
       .catch((error) => console.log('error', error));
-  }, []);
+  }, [query]);
 
   return (
     <>
-      <Navbar query={query} setQuery={setQuery} />
+      <Navbar setQuery={setQuery} />
       <VideoList videos={videos} />
     </>
   );
