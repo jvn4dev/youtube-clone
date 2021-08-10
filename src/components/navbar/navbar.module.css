@@ -9,10 +9,20 @@
   background-color: #212121;
 }
 
+.logo_container {
+  display: flex;
+  align-items: center;
+}
+
 .logo {
   width: 2.5rem;
   height: 2.5rem;
-  margin: 0.5rem 0.8rem;
+  margin: 0.5rem 0.4rem 0.5rem 0.8rem;
+}
+
+.main_title {
+  color: #fff;
+  font-weight: bolder;
 }
 
 .profile_image {
