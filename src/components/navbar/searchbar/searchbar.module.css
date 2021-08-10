@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input,
+.button {
+  border-style: none;
+}
+
+.input {
+  width: 300px;
+  height: 30px;
+  background-color: #000;
+  border: 1px solid rgba(228, 228, 228, 0.3);
+  color: #fff;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.button {
+  width: 50px;
+  height: 30px;
+  background-color: #323232;
+  cursor: pointer;
+}
+
+.icon {
+  color: #fff;
+}
