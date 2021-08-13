@@ -1,0 +1,17 @@
+.container {
+  padding: 1.2em 0.2em;
+}
+
+.video {
+  border-style: none;
+}
+
+.title {
+}
+
+.channel {
+}
+
+.description {
+  white-space: pre-wrap;
+}

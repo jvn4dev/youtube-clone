@@ -1,5 +1,5 @@
 .list {
-  margin-top: 50px;
+  margin: 1em;
   display: flex;
   flex-wrap: wrap;
   list-style: none;

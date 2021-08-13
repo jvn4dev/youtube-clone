@@ -12,7 +12,10 @@ const VideoHeader = ({ onSearch }) => (
       />
       <span className={styles.main_title}>JvnTube</span>
     </div>
-    <Searchbar onSearch={onSearch} />
+    <div className={styles.searchbar}>
+      <Searchbar onSearch={onSearch} />
+    </div>
+
     <div className={styles.profile_container}>
       <img
         className={styles.profile_image}
