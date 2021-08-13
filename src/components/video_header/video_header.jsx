@@ -1,8 +1,8 @@
-import React from 'react';
+import React, { memo } from 'react';
 import Searchbar from './searchbar/searchbar';
 import styles from './video_header.module.css';
 
-const VideoHeader = ({ onSearch }) => (
+const VideoHeader = memo(({ onSearch }) => (
   <div className={styles.container}>
     <div className={styles.logo_container}>
       <img
@@ -24,6 +24,6 @@ const VideoHeader = ({ onSearch }) => (
       />
     </div>
   </div>
-);
+));
 
 export default VideoHeader;
