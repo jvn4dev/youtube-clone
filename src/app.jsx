@@ -1,10 +1,17 @@
 import './app.css';
 import React, { useEffect, useState } from 'react';
 import VideoList from './components/video_list/video_list';
-import Navbar from './components/navbar/navbar';
+import VideoHeader from './components/video_header/video_header';
+import VideoDetail from './components/video_detail/video_detail';
 
 function App({ youtube }) {
   const [videos, setVideos] = useState([]);
+  const [selectedVideo, setSelectedVideo] = useState(null);
+
+  // 함수가 실행되면 선택된 비디오 정보를 가져와서 상태 변경
+  const onVideoClick = (video) => {
+    setSelectedVideo(video.snippet.title);
+  };
 
   // 상태끌어올리기를 통해 Navbar에서 검색된 qry를 받아와서 새로운 쿼리로 불러온 영상을 업데이트함
   const search = (qry) => {
@@ -22,8 +29,9 @@ function App({ youtube }) {
 
   return (
     <>
-      <Navbar onSearch={search} />
-      <VideoList videos={videos} />
+      <VideoHeader onSearch={search} />
+      {selectedVideo && <VideoDetail video={selectedVideo} />}
+      <VideoList videos={videos} onVideoClick={onVideoClick} />
     </>
   );
 }

@@ -1,8 +1,8 @@
 import React from 'react';
 import Searchbar from './searchbar/searchbar';
-import styles from './navbar.module.css';
+import styles from './video_header.module.css';
 
-const Navbar = ({ onSearch }) => (
+const VideoHeader = ({ onSearch }) => (
   <div className={styles.container}>
     <div className={styles.logo_container}>
       <img
@@ -23,4 +23,4 @@ const Navbar = ({ onSearch }) => (
   </div>
 );
 
-export default Navbar;
+export default VideoHeader;
