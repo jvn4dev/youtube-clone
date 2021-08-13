@@ -1,70 +1,22 @@
-# Getting Started with Create React App
+# 유튜브 클론 프로젝트
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+드림코딩 엘리님의 강의를 보며 react로 유튜브 클론을 하고 있습니다.
 
-## Available Scripts
+프로젝트를 진행하면서 현업자들이 어떤 식으로 패턴 구조를 활용하는지 API통신을 어떤식으로 처리하는지 배우고 있고 각종 react의 상태관리나 여러가지 미숙했던 부분들을 채워가고 있습니다.
 
-In the project directory, you can run:
+해당 readme 파일에 프로젝트를 통해 배운 점들을 기록하여 추후에 프로젝트를 통하여 얻어간 것들이 무엇이 있었는지 정리하고 회고하려고 합니다.
+</br>
+</br>
 
-### `yarn start`
+# 🍎 Things I learned
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- 환경변수 세팅을 통한 API_KEY 활용
+- gitignore를 통한 중요정보 노출 방지
+- async, await을 통한 네트워크 비동기 처리
+- axios를 통한 데이터 활용법 (강의내용 x)
+- postman과 유튜브 API를 통해 가장 핫한 영상 및 쿼리로 영상들 받아오기
+- 컴포넌트 분리를 통한 리액트 데이터 단방향 구조 이해(`useState` 및 lifting state up 등등)
+- `useRef` 를 활용하여 리액트 돔에서 currentValue 찾는법
+- `useEffect` 의 사용법
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+still updating...✏️
