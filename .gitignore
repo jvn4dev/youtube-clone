@@ -8,6 +8,9 @@
 # testing
 /coverage
 
+# YOUTUBE_API_KEY
+.env
+
 # production
 /build
 
