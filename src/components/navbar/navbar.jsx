@@ -2,7 +2,7 @@ import React from 'react';
 import Searchbar from './searchbar/searchbar';
 import styles from './navbar.module.css';
 
-const Navbar = ({ setQuery }) => (
+const Navbar = ({ onSearch }) => (
   <div className={styles.container}>
     <div className={styles.logo_container}>
       <img
@@ -12,7 +12,7 @@ const Navbar = ({ setQuery }) => (
       />
       <span className={styles.main_title}>JvnTube</span>
     </div>
-    <Searchbar setQuery={setQuery} />
+    <Searchbar onSearch={onSearch} />
     <div className={styles.profile_container}>
       <img
         className={styles.profile_image}
