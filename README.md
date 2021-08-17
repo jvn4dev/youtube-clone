@@ -18,5 +18,5 @@
 - 컴포넌트 분리를 통한 리액트 데이터 단방향 구조 이해(`useState` 및 lifting state up 등등)
 - `useRef` 를 활용하여 리액트 돔에서 currentValue 찾는법
 - `useEffect` 의 사용법
-
-still updating...✏️
+- dependency 세팅을 통한 API_KEY 분리
+- axios 데이터 통신 클래스 생성을 통한 app컴포넌트 분리 (MVC에서 V는 멍청하게 view의 역할만 할 수 있도록)
