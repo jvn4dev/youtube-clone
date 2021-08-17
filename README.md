@@ -21,3 +21,4 @@
 - dependency 세팅을 통한 API_KEY 분리
 - axios 데이터 통신 클래스 생성을 통한 app컴포넌트 분리 (MVC에서 V는 멍청하게 view의 역할만 할 수 있도록)
 - media query 를 통한 반응형 웹
+- PostCSS 활용
